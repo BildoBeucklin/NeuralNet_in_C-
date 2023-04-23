@@ -6,8 +6,8 @@ Willkommen zu unserem Projekt und meinem git.
 Zum instalieren:
 
 ```
- $ git clone git@gitlab.rz.htw-berlin.de:s0569799/mpt-22-konstantinrossmann.git
- $ cd mpt-22-konstantinrossmann/Abgabe
+ $ git clone git@github.com:BildoBeucklin/NeuralNet_in_C-.git
+ $ cd NeuralNet_in_C-/Abgabe
  $ make clean all
  $ python3 net-py.py (optional)
  ```
