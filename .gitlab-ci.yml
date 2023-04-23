@@ -1,0 +1,12 @@
+image: debian:bullseye
+build:
+    stage: build
+    tags: [Linux]
+
+    before_script:
+        - apt-get update && apt-get install -y make gcc
+    script:
+        - cd Abgabe
+        - make all
+        - ./net-exe 10 0.01 20 10000 60000 5 784 50 10
+
